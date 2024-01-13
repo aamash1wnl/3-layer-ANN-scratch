@@ -1,4 +1,4 @@
-# 3-Layer ANN Implementation from Scratch
+# ANN Implementation with 3 Layers from Scratch
 
 ## 1. Task to be Performed
 
@@ -11,12 +11,16 @@ The neural network is trained on the "Dry Bean Dataset" obtained from the UCI Ma
 **Dataset Description:**
 Seven different types of dry beans were used in this research, taking into account the features such as form, shape, type, and structure by the market situation. A computer vision system was developed to distinguish seven different registered varieties of dry beans with similar features in order to obtain uniform seed classification. For the classification model, images of 13,611 grains of 7 different registered dry beans were taken with a high-resolution camera. Bean images obtained by a computer vision system were subjected to segmentation and feature extraction stages, and a total of 16 features; 12 dimensions and 4 shape forms, were obtained from the grains.
 
-## 3. Libraries Used and Their Purpose in This Code
+## 3. Libraries Used and Their Purpose
 
-- **numpy**: Used for numerical operations and array manipulations.
-- **scikit-learn**: Utilized for data preprocessing, including train-test splitting and feature scaling.
-- **keras**: Used for one-hot encoding categorical labels.
-- **matplotlib**: Employed for visualizing the training and validation cost over epochs.
+- **NumPy (np):** Used for efficient numerical operations and array manipulations, providing the foundational support for mathematical computations in the neural network.
+- **scikit-learn (train_test_split, StandardScaler, LabelEncoder):** Enables convenient data preprocessing. `train_test_split` is used for dataset splitting, `StandardScaler` standardizes input features, and `LabelEncoder` encodes categorical labels.
+- **Keras (to_categorical):** Facilitates one-hot encoding of categorical labels, ensuring proper interpretation by the neural network during training.
+- **ucimlrepo (fetch_ucirepo):** Allows easy retrieval of datasets from the UCI Machine Learning Repository. In this context, it fetches the specific dataset (`id=602`) related to dry bean classification.
+- **Matplotlib (plt):** Utilized for creating visualizations. In this code, it plots the training and validation costs over epochs, offering insights into the neural network's learning progress.
+- **Warnings:** The `warnings` module is used to suppress unnecessary warnings during execution, ensuring a cleaner and more readable output.
+
+These libraries collectively contribute to efficient data processing, neural network modeling, and result visualization.
 
 ## 4. Working of the Neural Network Architecture
 
