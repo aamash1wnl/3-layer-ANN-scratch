@@ -86,6 +86,6 @@ The final training and validation costs are printed, and a plot of the training 
 ## 7. Link to Dataset and Its Paper
 
 - **Dataset Link:** [Dry Bean Dataset (UCI)](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)
-- **Dataset Paper:** [UCI Machine Learning Repository](https://www.semanticscholar.org/paper/Multiclass-classification-of-dry-beans-using-vision-Koklu-%C3%96zkan/e84c31138f2f261d15517d6b6bb8922c3fe597a1)
+- **Dataset Paper:** [Multiclass classification of dry beans using computer vision and machine learning techniques](https://www.semanticscholar.org/paper/Multiclass-classification-of-dry-beans-using-vision-Koklu-%C3%96zkan/e84c31138f2f261d15517d6b6bb8922c3fe597a1)
 
 Feel free to explore, experiment, and contribute to the improvement of this detailed neural network implementation!
