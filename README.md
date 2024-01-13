@@ -24,6 +24,8 @@ Seven different types of dry beans were used in this research, taking into accou
 
 The neural network architecture is a three-layer feedforward network:
 
+ ![sample SVG image](https://github.com/aamash1wnl/3-layer-ANN-scratch/blob/main/extras/nn(1).svg)
+ 
 1. **Input Layer:**
    - Nodes: The number of input nodes is determined by the features of the dataset.
 
